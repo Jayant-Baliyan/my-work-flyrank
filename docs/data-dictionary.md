@@ -43,7 +43,6 @@ Keep this file open while you work.
 |---|---|---|---|
 | `word_count` | number | Article word count | Blank for 7,699 rows (not measured) |
 | `char_count` | number | Article character count | Blank alongside `word_count` |
-| `provider_used` | category | LLM provider that generated the article: `openai` / `google` / `other` | Blank when unknown. Not a model feature |
 | `model_used` | category | LLM model name (e.g. `gemini-2.5-flash`, `gpt-4o-mini`) | Blank/`unknown` when not recorded. Not a model feature |
 | `content_age_days` | number | Days since the content was created | Every row in this slice is ≥ 90 |
 | `days_since_last_update` | number | Days since the content was last updated | |
